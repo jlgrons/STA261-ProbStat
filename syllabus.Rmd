@@ -1,0 +1,247 @@
+---
+title: "STA261: Probability & Statistics II"
+subtitle: "Syllabus"
+date: Winter 2026
+
+output: 
+  html_document:
+   toc: true
+   toc_float: true
+   theme: flatly
+---
+
+```{r setup, include=FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+knitr::opts_chunk$set(warning = F, message = F)
+```
+
+
+<br>
+
+## <i class="fas fa-user-friends" aria-hidden="true"></i> Teaching Team
+- <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Professor: [Jesse Gronsbell](https://sites.google.com/view/jgronsbell/home?authuser=0)
+
+- <span class="fas fa-user-friends" aria-hidden="true"></span> Teaching Assistants: TBD
+<br>
+
+******
+
+## <i class="glyphicon glyphicon-comment" aria-hidden="true"></i> Course Communication
+
+- <span class="fas fa-question" aria-hidden="true"></span> Questions about this course should be directed to the discussion board on Piazza. Please carefully read the Course Policies section for more detail on communication. 
+
+- <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> If you don't think your question is appropriate for the discussion board (e.g.\ it is not related to course content or logistics), please email the course email at __sta261\@course.utoronto.ca__.  Allow up to 48 business hours for a reply. Due to the size of the course, emails sent directly to the instructors will not be answered. 
+
+<br>
+
+******
+
+## <i class="glyphicon glyphicon-time" aria-hidden="true"></i> Office Hours
+
+- Teaching Assistants: TBD
+
+- Professor: TBD
+<br>
+
+******
+
+## <i class="glyphicon glyphicon-blackboard" aria-hidden="true"></i> Class Times and Location 
+
+<br>
+
+### _Lectures_
+- SEC101: Monday, 2-5pm EST
+- SEC201: Tuesday, 10-11am EST
+
+All lecture slides will be posted to the course website once the lecture is finished.
+
+While you may attend whichever section for lecture, you must take exams in your assigned section - no exceptions.
+
+<br>
+
+### _Tutorials_
+- TUT0101-104: Wednesday 4-5pm EST
+- TUT201-203: Thursday 12-1pm EST
+
+Tutorial questions will be posted by the preceding Friday. You are free to attend any tutorial section.
+
+<br>
+
+******
+
+## <span class="glyphicon glyphicon-education" aria-hidden="true"></span> Course Description 
+
+This course is designed for undergraduate students in statistical sciences, computer science, and other quantitative fields. 
+
+A rigorous introduction to the theory of statistical inference and to statistical practice. Topics covered include: sampling, statistical models, properties of estimators, likelihood estimation, Bayesian methods, hypothesis testing and confidence interval estimation, and linear regression. Real-world examples will be used to illustrate statistical theory and its limitations.
+
+<br>
+
+******
+
+## <span class="glyphicon glyphicon-check" aria-hidden="true"></span> Learning objectives 
+
+By the end of this course, you should be able to:
+
+- Understand basic probability theor.
+
+- Assess properties of estimators, primarily when $n$ is large 
+
+- Use and understand the properties of fundamental estimation and inference procedures 
+
+- Apply linear regression to analyze simple datasets
+
+
+<br>
+
+******
+
+
+## <span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Evaluation
+
+Students will be evaluated according to [University Assessment and Grading Practices Policy](https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012). The table below shows the weight of each assessment. 
+
+```{r, echo=FALSE}
+library(tidyverse)
+coursegrading <- read_csv("Winter2026_Grading.csv")
+knitr::kable(coursegrading[1:3,])
+```
+
+All tests will be closed book and aid sheets will not be allowed. The tests will cover all material in lecture up to that point, with an emphasis on the material from the last exam for Term Tests 2 and 3. Tests may include proofs. 
+
+Bring your TCard. There is a 10\% penalty if you forgot your TCard as we need to verify your identity during the exam. Do NOT sit next to anyone that you know.
+
+You must take the midterm of the section that you are enrolled in - no exceptions. 
+
+Write with pen or sharp pencil in the space provided or on the additional pages with the problem number clearly labeled. Be sure to explain all of your reasoning. You may use results from class, with explanation. You may bring one basic calculator for arithmetic only. 
+
+You are required to follow the university's [Code of Behaviour](https://governingcouncil.utoronto.ca/secretariat/policies/code-behaviour-academic-matters-july-1-2019) at all times. Cheating will not be taken lightly and will be addressed according to the university's policies. 
+
+<br>
+
+******
+
+## <span class="fas fa-globe" aria-hidden="true"></span> Course Websites
+
+- Class slides, notes, and other important information can be found on the [course website.](https://sta261.github.io/)
+
+- Questions and answers can be posted on the Piazza discussion board.
+
+
+<br>
+
+******
+
+## <i class="fas fa-book" aria-hidden="true"></i> Textbooks
+
+Required texts:
+
+- *Mathematical Statistics & Data Analysis,* Third Edition by J.A. Rice
+<br>
+
+
+
+******
+
+## <i class="fas fa-code" aria-hidden="true"></i> Computing
+
+R software will be used occasionally. No previous computing experience is assumed and you will not be tested on their expertise on this software. Any code used in the lectures for demonstration will be available on the course webpage. 
+
+If you are interested in downloading R, follow the links below:
+
+- For Windows: https://cran.r-project.org/bin/windows/base/
+- For Mac: https://cran.r-project.org/bin/macosx/
+
+After installing R, you can install Posit (RStudio), which is available [HERE](https://posit.co/products/open-source/rstudio/).
+<br>
+
+*******
+## <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Course Policies
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Missed Work Policy {#missed_work}
+
+Valid reasons for missing an assessment include: illness, injury, or other relevant personal issues. Any of the following types of documentation will be accepted to verify a student’s reason for missing an assessment:
+
+* [University of Toronto Verification of Student Illness or Injury form](http://www.illnessverification.utoronto.ca/index.php). The form must indicate that the degree of incapacitation on academic functioning is moderate, serious, or severe in order to be considered a valid medical reason for missing.
+
+* Student Health or Disability Related Certificate.
+
+* A College Registrar’s Letter.
+
+* Accessibility Services Letter.
+
+If you are excused from one term test, your final grade will be calculated using the remaining two tests (i.e., no make-up exams will be offered). If two term tests are missed, the instructor may either conduct an oral exam or base your final grade on the single completed test, at her discretion.
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Late Penalty {#late_penalty}
+This course is evaluated entirely based on term test marks. If extra credit assignments are provided, they must be turned in by the due date. Late work will not be accepted.
+
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Marking Concerns
+
+Regrade requests must follow the policy and instructions provided in [STA257](https://probability.ca/regrade.html), with the exception that regrade requests must be sent to the course email (sta261\@course.utoronto.ca) and NOT to the instructor.
+
+<br>
+
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Communicating with the teaching team {#communicating}
+
+Questions about course material or organization, such as,
+  
+- Is it appropriate to use this statistical method?
+- How do I get rid of this error message?
+- Can you clarify this point in lecture?
+
+should be posted on the Quercus discussion board. 
+
+If your communication is private, such as, "I missed the test because I was ill", then contact the course email (sta261\@course.utoronto.ca). Do not directly email the instructors; regular emails will not receive a response. Allow up to 48 business hours for a reply. 
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Academic Integrity
+
+You are responsible for knowing the content of the [University of Toronto’s Code of Behaviour on Academic Matters](http://www.governingcouncil.utoronto.ca/policies/behaveac.htm).
+
+As a general rule, we encourage you to discuss course material with each other and ask others for advice. If you have any questions about what is or is not permitted in this course, please do not hesitate to ask the instructors.
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Accessibility Needs
+
+Students with diverse learning styles and needs are welcome in this course. If you have an acute or ongoing disability issue or accommodation need, you should register with Accessibility Services (AS) at the beginning of the academic year by visiting [http://www.studentlife.utoronto.ca/as/new-registration](http://www.studentlife.utoronto.ca/as/new-registration). Without registration, you will not be able to verify your situation with your instructors, and instructors will not be advised about your accommodation needs. AS will assess your situation, develop an accommodation plan with you, and support you in requesting accommodation for your course work. Remember that the process of accommodation is private: AS will not share details of your needs or condition with any instructor, and your instructors will not reveal that you are registered with AS
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Religious Accomodations
+
+As a student at the University of Toronto, you are part of a diverse community that welcomes and includes students and faculty from a wide range of cultural and religious traditions. For my part, I will make every reasonable effort to avoid scheduling tests, examinations, or other compulsory activities on religious holy days not captured by statutory holidays. Further to University Policy, if you anticipate being absent from class or missing a major course activity (such as a test or in-class assignment) due to a religious observance, please let me know as early in the course as possible, and with sufficient notice (at least three weeks), so that we can work together to make alternate arrangements.
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Specific Medical Circumstances
+
+If you become ill and it affects your ability to do your academic work, consult me right away. Normally, I will ask you for medical documentation in support of your specific medical circumstances. The University’s Verification of Student Illness or Injury (VOI) form is recommended because it indicates the impact and severity of the illness, while protecting your privacy about the details of the nature of the illness. You can submit a different form (like a letter from a doctor), as long as it is an original document, and it contains the same information as the VOI. For more information, please see [http://www.illnessverification.utoronto.ca](http://www.illnessverification.utoronto.ca) If you get a concussion, break your hand, or suffer some other acute injury, you should register with Accessibility Services as soon as possible.
+
+<br>
+
+### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Accommodation for Personal Reasons
+There may be times when you are unable to complete course work on time due to non-medical reasons. If you have concerns, speak to me or to an advisor in the Registrar’s office; they can help you to decide if you want to request an extension or accommodation. They may be able to provide you with a Registrar’s letter of support to give to your instructors, and importantly, connect you with other resources on campus for help with your situation.
+
+<br>
+
+******
+
+## <i class="fas fa-user-plus" aria-hidden="true"></i> Acknowledgements
+
+The following people have contributed to the design of the course materials and website: Prof. Jesse Gronsbell (2020-2022), Jianhui Gao (2022), and Philip Choi (2023).
+<br>
+
+****** 
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+

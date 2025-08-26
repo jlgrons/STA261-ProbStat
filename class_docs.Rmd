@@ -1,0 +1,75 @@
+---
+title: "Lecture Notes"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+    theme: flatly
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
+```
+
+******
+
+<br>
+
+## Lecture 1: Introduction
+
+* [Slides]()
+
+* [Slides with scribbles]()
+
+## Lecture 2: Limit Theorems
+
+* [Slides]()
+
+* [Slides with scribbles]()
+
+## Lecture 3: Normal Theory \& Sampling
+
+* [Slides]()
+
+* [Slides with scribbles]()
+
+## Lecture 4: Estimation Methods
+
+* [Slides]()
+
+* [Slides with scribbles]()
+
+## Lecture 5: MLE Asymptotics
+
+* [Slides]()
+
+* [Slides with scribbles]()
+
+## Lecture 6: Optimality
+
+* [Slides]()
+
+* [Slides with scribbles]()
+
+## Lecture 7: Hypothesis Testing \& Bayesian Inference
+
+* [Slides]()
+
+* [Slides with scribbles]()
+
+## Lecture 8: Linear Regression
+
+* [Slides]()
+
+* [Slides with scribbles]()
+
+## Lecture 9: Review
+
+* [Slides]()
+
+* [Slides with scribbles]()
+

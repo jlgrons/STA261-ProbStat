@@ -1,0 +1,27 @@
+Week,Date,Session,Title,Topics,Recommended Resources,Due Dates
+1,Sept 3,Lecture ,Probability Review, Course Introduction, Knight Chp 1 + 2,
+,,Lab ,Probability Review,,,
+2,Sept 10,Lecture , Inequalities,Concentration inequalities; Expectation Inequalities, Wasserman Chp 4, 
+,,Lab , Normal Distribution Properties,,,
+3,Sept 17,Lecture ,Convergence, Modes of Convergence; Convergence relationships, Knight Chp 3; Wasserman Chp 5, Assignment 1
+,,Lab , Inequalities,,,
+4,Sept 24,Lecture , Limit Theorems, LLN; Simulation, Knight Chp 3; Wasserman Chp 5, 
+,,Lab 5,Convergence,,,
+5,Oct 1,Lecture , Limit Theorems II, CLT; Delta method, Knight Chp 3; Wasserman Chp 5, Assignment 2
+,,Lab , Limit Theorems,,,
+6,Oct 8, Lecture , Inference, Statistical Models and Inference; Parametric and nonparmetric models; Goals of inference; Inferential frameworks, Knight Chp 4; Davison Chp 1,
+,,Lab ,Inference,,,
+7,Oct 15, Lecture ,Midterm Review, , ,Assignment 3
+,,Lab ,Midterm Review,,,
+8,Oct 22, Lecture ,Midterm Exam,,,
+,,Lab ,No Lab ,,,
+9,Oct 29,Lecture ,READING WEEK,,,
+,,Lab ,READING WEEK,,,
+10,Nov 5, Lecture, Nonparametric Estimation,Statistical functionals; Substitution Principle; Bootstrap,Knight Chp 4; Davison Chps 1 and 2,
+,,Lab, No Lab,,,
+11,Nov 12,Lecture,Likelihoood I, Likelihood function; Likelihood principle; Asymptotic theory,Knight Chp 5; Davison Chp 4, 
+,,Lab, Likelihood,,,
+12,Nov 19,Lecture,Likelihood II, Misspecified Models; Numerical computation of MLEs, , Assignment 4
+,,Lab,Final Project Working Session,,,
+13, Nov 26,Lecture 13,Presentations, Final Project Presentations,,Assignment 5 (Due Dec 6)
+,,Lab 13, No Lab,,,

@@ -1,0 +1,19 @@
+name: sta261website
+output_dir: '.'
+navbar:
+  title: STA261 
+  left:
+    - text: Syllabus
+      href: syllabus.html
+    - text: Schedule
+      href: schedule.html
+    - text: Course Documents
+      menu:
+        - text: Lectures
+          href: class_docs.html
+        - text: Tutorials
+          href: tut_docs.html
+output:
+  html_document:
+    lib_dir: site_libs
+    self_contained: no

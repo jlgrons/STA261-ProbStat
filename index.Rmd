@@ -1,0 +1,46 @@
+---
+title: "STA261: Probability & Statistics II"
+subtitle: "Winter 2026, Course Website"
+
+output: 
+  html_document:
+   theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+
+Welcome to the course website for __STA261__ (Probability & Statistics II). This course is offered by the department of [Statistical Sciences](http://utstat.toronto.edu), and is the second of two canonical mathematical statistics courses designed for undergraduate students in statistical sciences, computer science, and other quantitative fields. 
+
+__Course Requirements__
+
+Undergraduate-level understanding of 
+
+- Prerequisites: STA257H1/ STAB52H3/ STA256H5
+- Corequisite: MAT237Y1/ MAT257Y1/ MAT257Y5; MAT223H1/ MAT224H1/ MAT240H1/ MATA22H3/ MATA23H3/ MAT223H5/ MAT240H5/ MATB24H3/ MAT224H5
+
+__Overview__
+
+A rigorous introduction to the theory of statistical inference and to statistical practice. Topics covered include: sampling, statistical models, properties of estimators, likelihood estimation, Bayesian methods, hypothesis testing and confidence interval estimation, and linear regression. Real-world examples will be used to illustrate statistical theory and its limitations.
+
+Important information related to STA2112 will be posted on this website including:
+
+ - [Course syllabus](syllabus.html)
+ 
+ - [Lecture Notes](class_docs.html) 
+ 
+ - [Tutorial Problem Sets](tut_docs.html)
+ 
+ ******
+<br>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+<br>
+
+<a href="https://github.com/jlgrons/STA261-ProbStat">R Markdown source for this website</a>
+
+
