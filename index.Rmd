@@ -28,13 +28,13 @@ __Overview__
 
 A rigorous introduction to the theory of statistical inference and to statistical practice. Topics covered include: sampling, statistical models, properties of estimators, likelihood estimation, Bayesian methods, hypothesis testing and confidence interval estimation, and linear regression. Real-world examples will be used to illustrate statistical theory and its limitations.
 
-Important information related to STA2112 will be posted on this website including:
+Important information related to STA261 will be posted on this website including:
 
  - [Course syllabus](syllabus.html)
  
  - [Lecture Notes](class_docs.html) 
  
- - [Tutorial Problem Sets](tut_docs.html)
+ - [Homework](tut_docs.html)
  
  ******
 <br>
