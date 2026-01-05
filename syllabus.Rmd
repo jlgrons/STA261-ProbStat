@@ -123,7 +123,7 @@ You are required to follow the university's [Code of Behaviour](https://governin
 
 ## <span class="fas fa-globe" aria-hidden="true"></span> Course Websites
 
-- Class slides, notes, and other important information can be found on the [course website.](https://jlgrons.github.io/STA261-ProbStat/)
+- Class slides, notes, and other important information can be found on the course website.
 
 - Questions and answers can be posted on the Piazza discussion board.
 
