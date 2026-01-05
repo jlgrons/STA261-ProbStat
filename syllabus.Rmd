@@ -83,7 +83,7 @@ A rigorous introduction to the theory of statistical inference and to statistica
 
 By the end of this course, you should be able to:
 
-- Understand basic probability theor.
+- Understand basic probability theory.
 
 - Assess properties of estimators, primarily when $n$ is large 
 
