@@ -21,55 +21,74 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 ## Lecture 1: Introduction
 
-* [Slides]()
+* [Slides](https://drive.google.com/file/d/13qSkBDwcFy_tD8F3uUtHoB6Uzgi16vfA/view?usp=sharing)
 
-* [Slides with scribbles]()
+* [Slides with scribbles - 101]()
+
+* [Slides with scribbles - 201]()
+
+* [Probability Review](https://drive.google.com/file/d/1hv-cv7T0ZCyTsPxX0BOWXg1S0KOxI2Yr/view?usp=sharing)
 
 ## Lecture 2: Limit Theorems
 
 * [Slides]()
 
-* [Slides with scribbles]()
+* [Slides with scribbles - 101]()
+
+* [Slides with scribbles - 201]()
 
 ## Lecture 3: Normal Theory \& Sampling
 
 * [Slides]()
 
-* [Slides with scribbles]()
+* [Slides with scribbles - 101]()
+
+* [Slides with scribbles - 201]()
 
 ## Lecture 4: Estimation Methods
 
 * [Slides]()
 
-* [Slides with scribbles]()
+* [Slides with scribbles - 101]()
+
+* [Slides with scribbles - 201]()
 
 ## Lecture 5: MLE Asymptotics
 
 * [Slides]()
 
-* [Slides with scribbles]()
+* [Slides with scribbles - 101]()
+
+* [Slides with scribbles - 201]()
 
 ## Lecture 6: Optimality
 
 * [Slides]()
 
-* [Slides with scribbles]()
+* [Slides with scribbles - 101]()
+
+* [Slides with scribbles - 201]()
 
 ## Lecture 7: Hypothesis Testing \& Bayesian Inference
 
 * [Slides]()
 
-* [Slides with scribbles]()
+* [Slides with scribbles - 101]()
+
+* [Slides with scribbles - 201]()
 
 ## Lecture 8: Linear Regression
 
 * [Slides]()
 
-* [Slides with scribbles]()
+* [Slides with scribbles - 101]()
+
+* [Slides with scribbles - 201]()
 
 ## Lecture 9: Review
 
 * [Slides]()
 
-* [Slides with scribbles]()
+* [Slides with scribbles - 101]()
 
+* [Slides with scribbles - 201]()

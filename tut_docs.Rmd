@@ -1,5 +1,5 @@
 ---
-title: "Tutorials"
+title: "Homework"
 output: 
   html_document:
    toc: true
@@ -15,7 +15,7 @@ library(tidyverse)
 
 ******
 
-# Tutorial 1: Probability Review
+# Homework 1: Probability Review
 
 * [Problems]()
 * [Solution]()

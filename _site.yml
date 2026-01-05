@@ -11,7 +11,7 @@ navbar:
       menu:
         - text: Lectures
           href: class_docs.html
-        - text: Tutorials
+        - text: Homework
           href: tut_docs.html
 output:
   html_document:
