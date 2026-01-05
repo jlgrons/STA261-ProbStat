@@ -22,6 +22,8 @@ Undergraduate-level understanding of
 - Prerequisites: STA257H1/ STAB52H3/ STA256H5
 - Corequisite: MAT237Y1/ MAT257Y1/ MAT257Y5; MAT223H1/ MAT224H1/ MAT240H1/ MATA22H3/ MATA23H3/ MAT223H5/ MAT240H5/ MATB24H3/ MAT224H5
 
+Prerequisites and corequisites are required and will not be waived.
+
 __Overview__
 
 A rigorous introduction to the theory of statistical inference and to statistical practice. Topics covered include: sampling, statistical models, properties of estimators, likelihood estimation, Bayesian methods, hypothesis testing and confidence interval estimation, and linear regression. Real-world examples will be used to illustrate statistical theory and its limitations.
