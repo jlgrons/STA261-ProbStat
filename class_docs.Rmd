@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 * [Slides](https://drive.google.com/file/d/13qSkBDwcFy_tD8F3uUtHoB6Uzgi16vfA/view?usp=sharing)
 
-* [Slides with scribbles - 101]()
+* [Slides with scribbles - 101](https://drive.google.com/file/d/1iEsFxujp_gUBjFfQHIMHgG6KnvxovQ0V/view?usp=sharing)
 
 * [Slides with scribbles - 201]()
 
