@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 * [Slides with scribbles - 101](https://drive.google.com/file/d/1iEsFxujp_gUBjFfQHIMHgG6KnvxovQ0V/view?usp=sharing)
 
-* [Slides with scribbles - 201]()
+* [Slides with scribbles - 201](https://drive.google.com/file/d/1dMpfDXsTFxmopOvNPKzuVesOHgiKRQku/view?usp=sharing)
 
 * [Probability Review](https://drive.google.com/file/d/1hv-cv7T0ZCyTsPxX0BOWXg1S0KOxI2Yr/view?usp=sharing)
 
