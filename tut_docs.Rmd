@@ -18,7 +18,9 @@ library(tidyverse)
 # Homework 1: Probability Review
 
 * [Problems](https://drive.google.com/file/d/1ebPgXQ2R7BZcFE2DI_Acqp0PpctuV4sf/view?usp=sharing)
-
+* [Solutions](https://drive.google.com/file/d/1dQIbaZ-9jJZilDiq39snTnhRgSpk4Bfh/view?usp=sharing)
  
+# Homework 2: Expectation and Variance
 
+* [Problems](https://drive.google.com/file/d/1SRaQSrfCgc2ws2F8yhAoy6pDdNB9_pZd/view?usp=sharing)
 
