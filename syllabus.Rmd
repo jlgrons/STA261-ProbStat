@@ -38,7 +38,7 @@ knitr::opts_chunk$set(warning = F, message = F)
 
 ## <i class="glyphicon glyphicon-time" aria-hidden="true"></i> Office Hours
 
-- Teaching Assistants: TBD
+- Teaching Assistants: See schedule for weekly office hours and extra office hours
 
 - Professor: After lectures
 <br>

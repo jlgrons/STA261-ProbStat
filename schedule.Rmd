@@ -32,3 +32,24 @@ Below is our course schedule, which will almost certainly change as the course p
 | Week 11 (Mar. 23 – Mar. 27)      | Lecture 9: Review Session                                 |              |
 | Week 12 (Mar. 30 – Apr. 03)      | Test 3                                                    |              |
 
+
+<br>
+
+# <span class="glyphicon glyphicon-time" aria-hidden="false"></span> Weekly Office Hour Schedule
+
+| **TA**  | **Time**  | **Zoom** |
+|----------|-----------|----------|
+| Jianhui  | Wednesday 14:30–15:30 | <a href="https://utoronto.zoom.us/j/84584056034" target="_blank" rel="noopener">Zoom link</a> |
+| KC       | Thursdays 10:00–11:00 | <a href="https://utoronto.zoom.us/j/87209490546" target="_blank" rel="noopener">Zoom link</a> |
+| Yuan     | Thursday 14:00–15:00 | <a href="https://utoronto.zoom.us/j/9569880493" target="_blank" rel="noopener">Zoom link</a> |
+| Weicheng | Friday 15:00–16:00 | <a href="https://utoronto.zoom.us/j/83358989754" target="_blank" rel="noopener">Zoom link</a> |
+| David    | Friday 14:00–15:00 | <a href="https://utoronto.zoom.us/j/89223782802" target="_blank" rel="noopener">Zoom link</a> |
+
+<br>
+
+# <span class="glyphicon glyphicon-plus" aria-hidden="false"></span> Extra Office Hour
+
+| **Name** | **Time** | **Zoom** |
+|---------|----------|----------|
+| Alex  | January 23, February 27, March 27th (Fridays) 16:00–17:00 | <a href="https://utoronto.zoom.us/j/86515559105" target="_blank" rel="noopener">Zoom link</a> |
+| Madhu | January 23, February 27, March 27 (Fridays) 13:00–14:00 | <a href="https://utoronto.zoom.us/j/4133047143" target="_blank" rel="noopener">Zoom link</a> |
