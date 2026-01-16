@@ -23,4 +23,8 @@ library(tidyverse)
 # Homework 2: Expectation & Limit Theorems
 
 * [Problems](https://drive.google.com/file/d/1SRaQSrfCgc2ws2F8yhAoy6pDdNB9_pZd/view?usp=sharing)
+* [Solutions](https://drive.google.com/file/d/1PuVvFX6kO7LhvhnmQ-pxlDJ73kXDLoSe/view?usp=sharing)
 
+# Homework 3: Statistical Inference
+
+* [Problems](https://drive.google.com/file/d/1UOKpEs9L7XuxE_pRkICJSo_M_VTE5bXc/view?usp=sharing)
