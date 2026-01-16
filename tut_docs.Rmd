@@ -27,4 +27,4 @@ library(tidyverse)
 
 # Homework 3: Statistical Inference
 
-* [Problems](https://drive.google.com/file/d/1UxCOunvcrkMd8uFlSTayYAkkR0fwa2IM/view?usp=sharing)
+* [Problems](https://drive.google.com/file/d/1NS0-OAPYls_tkko_rKT63z9QPxTa45R6/view?usp=sharing)
