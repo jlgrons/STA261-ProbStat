@@ -36,3 +36,9 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * [Slides with scribbles - 101](https://drive.google.com/file/d/1n6DpfyXqFqGt2WGVOvDzzzzq9Kue2FQX/view?usp=sharing)
 
 * [Slides with scribbles - 201](https://drive.google.com/file/d/1dMpfDXsTFxmopOvNPKzuVesOHgiKRQku/view?usp=sharing)
+
+## Lecture 3: Normal Theory
+
+* [Slides](https://drive.google.com/file/d/1ajxVfsKRRHZuEC3icKfxbsMVRgXcF6Uo/view?usp=sharing)
+
+
