@@ -41,4 +41,7 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 * [Slides](https://drive.google.com/file/d/1ajxVfsKRRHZuEC3icKfxbsMVRgXcF6Uo/view?usp=sharing)
 
+* [Slides with scribbles - 101](https://drive.google.com/file/d/1RWJs3FnW4gVWFAhif16AKATX2T2qXu4z/view?usp=sharing)
+
+* [Slides with scribbles - 201](https://drive.google.com/file/d/1s3RsrZuebv28BW64gh7aV-DjNBT0h-il/view?usp=sharing)
 
