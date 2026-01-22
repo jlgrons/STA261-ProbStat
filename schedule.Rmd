@@ -20,18 +20,17 @@ Below is our course schedule, which will almost certainly change as the course p
 |----------------------------------|-----------------------------------------------------------|--------------|
 | Week 1 (Jan. 05 – Jan. 09)       | Lecture 1: Course Introduction, Review                    | Chps 1–3     |
 | Week 2 (Jan. 12 – Jan. 16)       | Lecture 2: Review, Limit Theorems                         | Chp 4–5      |
-| Week 3 (Jan. 19 – Jan. 23)       | Lecture 3: Normal Theory, Sampling                        | Chp 6–7      |
+| Week 3 (Jan. 19 – Jan. 23)       | Lecture 3: Normal Theory                                  | Chp 6      |
 | Week 4 (Jan. 26 – Jan. 30)       | Test 1                                                    |              |
-| Week 5 (Feb. 02 – Feb. 06)       | Lecture 4: Method of Moments, MLE                         | Chp 8        |
-| Week 6 (Feb. 09 – Feb. 13)       | Lecture 5: MLE Asymptotics                                | Chp 8        |
+| Week 5 (Feb. 02 – Feb. 06)       | Lecture 4: Sampling                                      | Chp 7        |
+| Week 6 (Feb. 09 – Feb. 13)       | Lecture 5: Method of Moments, MLE                        | Chp 8        |
 | **Reading Week (Feb. 16 – Feb. 20)** |                                                      |            |
-| Week 7 (Feb. 23 – Feb. 27)       | Lecture 6: Optimality                                     | Chp 8        |
+| Week 7 (Feb. 23 – Feb. 27)       | Lecture 6: MLE Asymptotics                               | Chp 8        |
 | Week 8 (Mar. 02 – Mar. 06)       | Test 2                                                    |              |
-| Week 9 (Mar. 09 – Mar. 13)       | Lecture 7: Hypothesis Testing, Bayesian Inference         | Chp 8–9      |
-| Week 10 (Mar. 16 – Mar. 20)      | Lecture 8: Linear Regression                              | Chp 14       |
-| Week 11 (Mar. 23 – Mar. 27)      | Lecture 9: Review Session                                 |              |
-| Week 12 (Mar. 30 – Apr. 03)      | Test 3                                                    |              |
-
+| Week 9 (Mar. 09 – Mar. 13)       | Lecture 7: Optimality                                     | Chp 8      |
+| Week 10 (Mar. 16 – Mar. 20)      | Lecture 8:  Hypothesis Testing, Bayesian Inference        | Chp 8–9       |
+| Week 11 (Mar. 23 – Mar. 27)      | Lecture 9: Linear Regression                              |   Chp 14     |
+| Week 12 (Mar. 30 – Apr. 03)      | Review Session                                            |              |
 
 <br>
 
