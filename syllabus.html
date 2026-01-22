@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>STA261: Probability &amp; Statistics II</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">STA261</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Course Documents
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="class_docs.html">Lectures</a>
+    </li>
+    <li>
+      <a href="tut_docs.html">Homework</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">STA261: Probability &amp; Statistics
+II</h1>
+<h3 class="subtitle">Syllabus</h3>
+<h4 class="date">Winter 2026</h4>
+
+</div>
+
+
+<p><br></p>
+<div id="teaching-team" class="section level2">
+<h2><i class="fas fa-user-friends" aria-hidden="true"></i> Teaching
+Team</h2>
+<ul>
+<li><p><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+Professor: <a
+href="https://sites.google.com/view/jgronsbell/home?authuser=0">Jesse
+Gronsbell</a></p></li>
+<li><p><span class="fas fa-user-friends" aria-hidden="true"></span>
+Teaching Assistants: Jianhui Gao, Madhu Gunasingam, Dayi Li, Yuan Tian,
+KC Tsiolis, Alexander Valencia <br></p></li>
+</ul>
+<hr />
+</div>
+<div id="course-communication" class="section level2">
+<h2><i class="glyphicon glyphicon-comment" aria-hidden="true"></i>
+Course Communication</h2>
+<ul>
+<li><p><span class="fas fa-question" aria-hidden="true"></span>
+Questions about this course should be directed to the discussion board
+on Piazza. Please carefully read the Course Policies section for more
+detail on communication.</p></li>
+<li><p><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+If you don’t think your question is appropriate for the discussion board
+(e.g. it is not related to course content or logistics), please email
+the course email at <strong>sta261@course.utoronto.ca</strong>. Allow up
+to 48 business hours for a reply. Due to the size of the course, emails
+sent directly to the instructors will not be answered.</p></li>
+</ul>
+<p><br></p>
+<hr />
+</div>
+<div id="office-hours" class="section level2">
+<h2><i class="glyphicon glyphicon-time" aria-hidden="true"></i> Office
+Hours</h2>
+<ul>
+<li><p>Teaching Assistants: See schedule for weekly office hours and
+extra office hours</p></li>
+<li><p>Professor: After lectures <br></p></li>
+</ul>
+<hr />
+</div>
+<div id="class-times-and-location" class="section level2">
+<h2><i class="glyphicon glyphicon-blackboard" aria-hidden="true"></i>
+Class Times and Location</h2>
+<p><br></p>
+<div id="lectures" class="section level3">
+<h3><em>Lectures</em></h3>
+<ul>
+<li>SEC101: Monday, 2-5pm EST</li>
+<li>SEC201: Tuesday, 10-11am EST</li>
+</ul>
+<p>All lecture slides will be posted to the course website once the
+lecture is finished.</p>
+<p>While you may attend whichever section for lecture, you must take
+exams in your assigned section - no exceptions.</p>
+<p><br></p>
+</div>
+<div id="tutorials" class="section level3">
+<h3><em>Tutorials</em></h3>
+<ul>
+<li>TUT0101-104: Wednesday 4-5pm EST</li>
+<li>TUT201-203: Thursday 12-1pm EST</li>
+</ul>
+<p>Tutorial questions will be posted by the preceding Friday. You are
+free to attend any tutorial section.</p>
+<p><br></p>
+<hr />
+</div>
+</div>
+<div id="course-description" class="section level2">
+<h2><span class="glyphicon glyphicon-education"
+aria-hidden="true"></span> Course Description</h2>
+<p>This course is designed for undergraduate students in statistical
+sciences, computer science, and other quantitative fields.</p>
+<p>A rigorous introduction to the theory of statistical inference and to
+statistical practice. Topics covered include: sampling, statistical
+models, properties of estimators, likelihood estimation, Bayesian
+methods, hypothesis testing and confidence interval estimation, and
+linear regression. Real-world examples will be used to illustrate
+statistical theory and its limitations.</p>
+<p><br></p>
+<hr />
+</div>
+<div id="learning-objectives" class="section level2">
+<h2><span class="glyphicon glyphicon-check" aria-hidden="true"></span>
+Learning objectives</h2>
+<p>By the end of this course, you should be able to:</p>
+<ul>
+<li><p>Understand basic probability theory</p></li>
+<li><p>Assess properties of estimators, primarily when <span
+class="math inline">\(n\)</span> is large</p></li>
+<li><p>Use and understand the properties of fundamental estimation and
+inference procedures</p></li>
+<li><p>Apply linear regression to analyze simple datasets</p></li>
+</ul>
+<p><br></p>
+<hr />
+</div>
+<div id="evaluation" class="section level2">
+<h2><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>
+Evaluation</h2>
+<p>Students will be evaluated according to <a
+href="https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012">University
+Assessment and Grading Practices Policy</a>. The table below shows the
+weight of each assessment.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Term Test 1</td>
+<td align="left">35%</td>
+</tr>
+<tr class="even">
+<td align="left">Term Test 2</td>
+<td align="left">35%</td>
+</tr>
+<tr class="odd">
+<td align="left">Final Test 3</td>
+<td align="left">30%</td>
+</tr>
+</tbody>
+</table>
+<p>All tests will be closed book and aid sheets will not be allowed. The
+tests will cover all material in lecture up to that point, with an
+emphasis on the material from the last exam for tests 2 and 3. Tests may
+include proofs. Term test 3 will take place during the Final Exam
+period.</p>
+<p>Bring your TCard. There is a 10% penalty if you forgot your TCard as
+we need to verify your identity during the exam. Do NOT sit next to
+anyone that you know.</p>
+<p>You must take the test of the section that you are enrolled in - no
+exceptions.</p>
+<p>Write with pen or sharp pencil in the space provided or on the
+additional pages with the problem number clearly labeled. Be sure to
+explain all of your reasoning. You may use results from class, with
+explanation. You may bring one basic calculator for arithmetic only.</p>
+<p>You are required to follow the university’s <a
+href="https://governingcouncil.utoronto.ca/secretariat/policies/code-behaviour-academic-matters-july-1-2019">Code
+of Behaviour</a> at all times. Cheating will not be taken lightly and
+will be addressed according to the university’s policies.</p>
+<p>Students needing to take a deferred final exam from a previous
+semester are to take Test 3.</p>
+<p><br></p>
+<hr />
+</div>
+<div id="course-websites" class="section level2">
+<h2><span class="fas fa-globe" aria-hidden="true"></span> Course
+Websites</h2>
+<ul>
+<li><p>Class slides, notes, and other important information can be found
+on the course website.</p></li>
+<li><p>Questions and answers can be posted on the Piazza discussion
+board.</p></li>
+<li><p>Announcements will be made through Quercus.</p></li>
+</ul>
+<p><br></p>
+<hr />
+</div>
+<div id="textbooks" class="section level2">
+<h2><i class="fas fa-book" aria-hidden="true"></i> Textbooks</h2>
+<p>Required texts:</p>
+<ul>
+<li><em>Mathematical Statistics &amp; Data Analysis,</em> Third Edition
+by J.A. Rice <br></li>
+</ul>
+<hr />
+</div>
+<div id="computing" class="section level2">
+<h2><i class="fas fa-code" aria-hidden="true"></i> Computing</h2>
+<p>R software will be used occasionally. No previous computing
+experience is assumed and you will not be tested on your expertise on
+this software. Any code used in the lectures for demonstration will be
+available on the course webpage.</p>
+<p>If you are interested in downloading R, follow the links below:</p>
+<ul>
+<li>For Windows: <a href="https://cran.r-project.org/bin/windows/base/"
+class="uri">https://cran.r-project.org/bin/windows/base/</a></li>
+<li>For Mac: <a href="https://cran.r-project.org/bin/macosx/"
+class="uri">https://cran.r-project.org/bin/macosx/</a></li>
+</ul>
+<p>After installing R, you can install Posit (RStudio), which is
+available <a
+href="https://posit.co/products/open-source/rstudio/">here</a>. <br></p>
+<hr />
+</div>
+<div id="course-policies" class="section level2">
+<h2><span class="glyphicon glyphicon-info-sign"
+aria-hidden="true"></span> Course Policies</h2>
+<p><br></p>
+<div id="missed_work" class="section level3">
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Missed Work Policy</h3>
+<p>Valid reasons for missing an assessment include: illness, injury, or
+other relevant personal issues. Any of the following types of
+documentation will be accepted to verify a student’s reason for missing
+an assessment:</p>
+<ul>
+<li><p><a
+href="http://www.illnessverification.utoronto.ca/index.php">University
+of Toronto Verification of Student Illness or Injury form</a>. The form
+must indicate that the degree of incapacitation on academic functioning
+is moderate, serious, or severe in order to be considered a valid
+medical reason for missing.</p></li>
+<li><p>Student Health or Disability Related Certificate.</p></li>
+<li><p>A College Registrar’s Letter.</p></li>
+<li><p>Accessibility Services Letter.</p></li>
+</ul>
+<p>You must send your completed documentation to the course email before
+the scheduled exam time to be excused from the term test. Documentation
+cannot be submitted after a student takes an exam and the exam will not
+be excused.</p>
+<p>If you are excused from one term test, your final grade will be
+calculated using the remaining two tests (i.e., no make-up exams will be
+offered). If two term tests are missed, the instructor may either
+conduct an oral exam or base your final grade on the single completed
+test, at her discretion.</p>
+<p><br></p>
+</div>
+<div id="late_penalty" class="section level3">
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Late Penalty</h3>
+<p>This course is evaluated entirely based on term test marks. If extra
+credit assignments are provided, they must be turned in by the due date.
+Late work will not be accepted.</p>
+<p><br></p>
+</div>
+<div id="marking-concerns" class="section level3">
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Marking Concerns</h3>
+<p>Regrade requests must follow the policy and instructions provided in
+<a href="https://probability.ca/regrade.html">STA257</a>, with the
+exception that regrade requests must be sent to the course email
+(sta261@course.utoronto.ca) and NOT to the instructor.</p>
+<p><br></p>
+</div>
+<div id="communicating" class="section level3">
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Communicating with the teaching team</h3>
+<p>Questions about course material or organization, such as,</p>
+<ul>
+<li>Is it appropriate to use this statistical method?</li>
+<li>How do I perform this calculation?</li>
+<li>Can you clarify this point in lecture?</li>
+</ul>
+<p>should be posted on the discussion board.</p>
+<p>If your communication is private, such as, “I missed the test because
+I was ill”, then contact the course email (sta261@course.utoronto.ca).
+Do not directly email the instructors; regular emails will not receive a
+response. Allow up to 48 business hours for a reply.</p>
+<p><br></p>
+</div>
+<div id="academic-integrity" class="section level3">
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Academic Integrity</h3>
+<p>You are responsible for knowing the content of the <a
+href="http://www.governingcouncil.utoronto.ca/policies/behaveac.htm">University
+of Toronto’s Code of Behaviour on Academic Matters</a>.</p>
+<p>As a general rule, we encourage you to discuss course material with
+each other and ask others for advice. If you have any questions about
+what is or is not permitted in this course, please do not hesitate to
+ask the instructors.</p>
+<p><br></p>
+</div>
+<div id="accessibility-needs" class="section level3">
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Accessibility Needs</h3>
+<p>Students with diverse learning styles and needs are welcome in this
+course. If you have an acute or ongoing disability issue or
+accommodation need, you should register with Accessibility Services (AS)
+at the beginning of the academic year by visiting <a
+href="https://studentlife.utoronto.ca/department/accessibility-services/">https://studentlife.utoronto.ca/department/accessibility-services/</a>.
+Without registration, you will not be able to verify your situation with
+your instructors, and instructors will not be advised about your
+accommodation needs. AS will assess your situation, develop an
+accommodation plan with you, and support you in requesting accommodation
+for your course work. Remember that the process of accommodation is
+private: AS will not share details of your needs or condition with any
+instructor, and your instructors will not reveal that you are registered
+with AS</p>
+<p><br></p>
+</div>
+<div id="religious-accomodations" class="section level3">
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Religious Accomodations</h3>
+<p>As a student at the University of Toronto, you are part of a diverse
+community that welcomes and includes students and faculty from a wide
+range of cultural and religious traditions. For my part, I will make
+every reasonable effort to avoid scheduling tests, examinations, or
+other compulsory activities on religious holy days not captured by
+statutory holidays. Further to University Policy, if you anticipate
+being absent from class or missing a major course activity (such as a
+test or in-class assignment) due to a religious observance, let the
+teaching team know as early in the course as possible, and with
+sufficient notice (at least three weeks), so that we can work together
+to make alternate arrangements.</p>
+<p><br></p>
+</div>
+<div id="specific-medical-circumstances" class="section level3">
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Specific Medical Circumstances</h3>
+<p>If you become ill and it affects your ability to do your academic
+work, consult with the teaching team right away. Normally, I will ask
+you for medical documentation in support of your specific medical
+circumstances. The University’s Verification of Student Illness or
+Injury (VOI) form is recommended because it indicates the impact and
+severity of the illness, while protecting your privacy about the details
+of the nature of the illness. You can submit a different form (like a
+letter from a doctor), as long as it is an original document, and it
+contains the same information as the VOI. For more information, please
+see <a
+href="http://www.illnessverification.utoronto.ca">http://www.illnessverification.utoronto.ca</a>
+If you get a concussion, break your hand, or suffer some other acute
+injury, you should register with Accessibility Services as soon as
+possible.</p>
+<p><br></p>
+</div>
+<div id="accommodation-for-personal-reasons" class="section level3">
+<h3><span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>
+Accommodation for Personal Reasons</h3>
+<p>There may be times when you are unable to complete course work on
+time due to non-medical reasons. If you have concerns, speak to me or to
+an advisor in the Registrar’s office; they can help you to decide if you
+want to request an extension or accommodation. They may be able to
+provide you with a Registrar’s letter of support to give to your
+instructors, and importantly, connect you with other resources on campus
+for help with your situation.</p>
+<p><br></p>
+<hr />
+</div>
+</div>
+<div id="acknowledgements" class="section level2">
+<h2><i class="fas fa-user-plus" aria-hidden="true"></i>
+Acknowledgements</h2>
+<p>The following people have contributed to the design of the course
+materials and website: Prof. Jesse Gronsbell (2024-2026), Lijia Wang
+(2025), and Omid Jazi (2024). <br></p>
+<hr />
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This
+website is licensed under a
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+Commons Attribution-NonCommercial-ShareAlike 4.0 International
+License</a>.</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
