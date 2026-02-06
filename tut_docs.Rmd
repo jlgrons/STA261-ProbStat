@@ -32,3 +32,7 @@ library(tidyverse)
 
 # Homework 4
 * [Problems](https://drive.google.com/file/d/1zgQy_QKDnLtB1kgkWOvIT6SVLYUxF-pl/view?usp=sharing)
+* [Solutions](https://drive.google.com/file/d/1FQYQ01zrsuPPhD63z_BiArbD2_nkSyvj/view?usp=sharing)
+
+# Homework 5
+* [Problems](https://drive.google.com/file/d/1dlceJoHRb26eVOG3ap6Np1piA-dv0Rx3/view?usp=sharing)
