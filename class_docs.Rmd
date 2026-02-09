@@ -45,3 +45,7 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 * [Slides with scribbles - 201](https://drive.google.com/file/d/1s3RsrZuebv28BW64gh7aV-DjNBT0h-il/view?usp=sharing)
 
+## Lecture 4: Sampling
+
+* [Slides](https://drive.google.com/file/d/1hJ7j-oAxsYJiN0fCXoYKuykgggF6gqgc/view?usp=sharing)
+
