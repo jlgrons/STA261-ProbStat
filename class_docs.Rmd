@@ -53,5 +53,11 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 
 * [Slides with scribbles - 201](https://drive.google.com/file/d/1aEcYILSEev3TZ_q_2JafiZx0hqH6RUVO/view?usp=sharing)
 
-<!-- % -->
+
+## Lecture 5: Estimation
+
+* [Slides](https://drive.google.com/file/d/1I63mrae5VJhYv_19z7Zs7mY1KxggQhTq/view?usp=sharing)
+
+
+
 
