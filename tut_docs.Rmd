@@ -40,3 +40,4 @@ library(tidyverse)
 
 # Homework 6
 * [Problems](https://drive.google.com/file/d/1k_kMhNNxo9HB0D1wwB2o8sYbfQGdCBHF/view?usp=sharing)
+* [Solutions](https://drive.google.com/file/d/1y9taUlkAiNNEDeACmdiJ8SlXwT0p1e_9/view?usp=sharing)
