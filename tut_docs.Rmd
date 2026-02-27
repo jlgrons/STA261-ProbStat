@@ -15,12 +15,12 @@ library(tidyverse)
 
 ******
 
-# Homework 1: Probability Review
+# Homework 1: Probability
 
 * [Problems](https://drive.google.com/file/d/1ebPgXQ2R7BZcFE2DI_Acqp0PpctuV4sf/view?usp=sharing)
 * [Solutions](https://drive.google.com/file/d/1xzV1UEf52dzBrZeR-fXhw-xCiINO8GF9/view?usp=sharing)
  
-# Homework 2: Expectation & Limit Theorems
+# Homework 2: Limit Theorems
 
 * [Problems](https://drive.google.com/file/d/1SRaQSrfCgc2ws2F8yhAoy6pDdNB9_pZd/view?usp=sharing)
 * [Solutions](https://drive.google.com/file/d/1MIwxUaAiIx7-rj2babAQE859pIS-Vl6Q/view?usp=sharing)
@@ -30,14 +30,14 @@ library(tidyverse)
 * [Problems](https://drive.google.com/file/d/1RCHknjjW7P4gjG0ct7Kw_12nY5wECKOG/view?usp=sharing)
 * [Solutions](https://drive.google.com/file/d/1RCHknjjW7P4gjG0ct7Kw_12nY5wECKOG/view?usp=sharing)
 
-# Homework 4
+# Homework 4: Sampling
 * [Problems](https://drive.google.com/file/d/1zgQy_QKDnLtB1kgkWOvIT6SVLYUxF-pl/view?usp=sharing)
 * [Solutions](https://drive.google.com/file/d/1FQYQ01zrsuPPhD63z_BiArbD2_nkSyvj/view?usp=sharing)
 
-# Homework 5
-* [Problems](https://drive.google.com/file/d/1tiXMyPzAgu_EO3QfMTJiQMPqIb5fbyB4/view?usp=sharing)
-* [Solutions](https://drive.google.com/file/d/1Q-MoTmKBcOtNENvvQK5hHAJu1VbN5UCh/view?usp=sharing)
+# Homework 5: Estimation I
+* [Problems](https://drive.google.com/file/d/1Q-MoTmKBcOtNENvvQK5hHAJu1VbN5UCh/view?usp=sharing)
+* [Solutions](https://drive.google.com/file/d/1tiXMyPzAgu_EO3QfMTJiQMPqIb5fbyB4/view?usp=sharing)
 
-# Homework 6
+# Homework 6: Estimation II
 * [Problems](https://drive.google.com/file/d/1k_kMhNNxo9HB0D1wwB2o8sYbfQGdCBHF/view?usp=sharing)
 * [Solutions](https://drive.google.com/file/d/1y9taUlkAiNNEDeACmdiJ8SlXwT0p1e_9/view?usp=sharing)
