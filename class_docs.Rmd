@@ -67,3 +67,7 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 ## Lecture 6: MLE Theory
 
 * [Slides](https://drive.google.com/file/d/1UZViLzu21Wrfm75qOG4rm3BOgSS_rwbs/view?usp=sharing)
+
+* [Slides with scribbles - 101](https://drive.google.com/file/d/10muhklX8zFGvPQii66ii9c7mtNjYvyRn/view?usp=sharing)
+
+* [Slides with scribbles - 201](https://drive.google.com/file/d/13_iPj75FnnjAW_UrlJmJkkGOqgqluGBd/view?usp=sharing)
