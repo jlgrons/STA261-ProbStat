@@ -71,3 +71,9 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * [Slides with scribbles - 101](https://drive.google.com/file/d/10muhklX8zFGvPQii66ii9c7mtNjYvyRn/view?usp=sharing)
 
 * [Slides with scribbles - 201](https://drive.google.com/file/d/13_iPj75FnnjAW_UrlJmJkkGOqgqluGBd/view?usp=sharing)
+
+
+## Lecture 7: Testing
+
+* [Slides](https://drive.google.com/file/d/1OxqTpmjrAALVWo1SX6f4lQi9X3I1vQgh/view?usp=sharing)
+
