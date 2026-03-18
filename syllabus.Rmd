@@ -111,7 +111,7 @@ max(30% * completed T1/T2 + 70% * T3, 70% * completed T1/T2 + 30% * T3).
 
 If you miss both term test 1 and term test 2, your grade will be based on term test 3 alone.
 
-All tests will be closed book and aid sheets will not be allowed. The tests will cover all material in lecture up to that point, with an emphasis on the material from the last exam for tests 2 and 3. Tests may include proofs. Term test 3 will take place during the Final Exam period. University policies on deferring the exam can be found [here](https://www.artsci.utoronto.ca/current/faculty-registrar/petitions/deferred-exams).
+All tests will be closed book and aid sheets will not be allowed. The tests will cover all material in lecture up to that point, with an emphasis on the material from the last exam for tests 2 and 3. Tests may include proofs. Term test 3 will take place during the Final Exam period.
 
 Bring your TCard. For term tests 1 and 2, there is a 10\% penalty if you forgot your TCard as we need to verify your identity during the exam. Do NOT sit next to anyone that you know.
 
