@@ -99,17 +99,21 @@ By the end of this course, you should be able to:
 
 ## <span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Evaluation
 
-Students will be evaluated according to [University Assessment and Grading Practices Policy](https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012). The table below shows the weight of each assessment. 
+Students will be evaluated according to [University Assessment and Grading Practices Policy](https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012). 
 
-```{r, echo=FALSE}
-library(tidyverse)
-coursegrading <- read_csv("Winter2026_Grading.csv")
-knitr::kable(coursegrading[1:3,])
-```
+Provided you take all three term tests (T1, T2, and T3), your final grade will be calculated as:
 
-All tests will be closed book and aid sheets will not be allowed. The tests will cover all material in lecture up to that point, with an emphasis on the material from the last exam for tests 2 and 3. Tests may include proofs. Term test 3 will take place during the Final Exam period. 
+max(30% * max(T1, T2) + 70% * T3, 70% * max(T1, T2) + 30% * T3).
 
-Bring your TCard. For term tests 1 and 2, There is a 10\% penalty if you forgot your TCard as we need to verify your identity during the exam. Do NOT sit next to anyone that you know.
+If you miss either term test 1 or term test 2, your final grade will be calculated using the completed term test 1/2 (completed T1/T2) and term test 3: 
+
+max(30% * completed T1/T2 + 70% * T3, 70% * completed T1/T2 + 30% * T3).
+
+If you miss both term test 1 and term test 2, your grade will be based on term test 3 alone.
+
+All tests will be closed book and aid sheets will not be allowed. The tests will cover all material in lecture up to that point, with an emphasis on the material from the last exam for tests 2 and 3. Tests may include proofs. Term test 3 will take place during the Final Exam period. University policies on deferring the exam can be found [here](https://www.artsci.utoronto.ca/current/faculty-registrar/petitions/deferred-exams).
+
+Bring your TCard. For term tests 1 and 2, there is a 10\% penalty if you forgot your TCard as we need to verify your identity during the exam. Do NOT sit next to anyone that you know.
 
 You must take the test of the section that you are enrolled in - no exceptions. 
 
