@@ -99,25 +99,27 @@ By the end of this course, you should be able to:
 
 ## <span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Evaluation
 
-Students will be evaluated according to [University Assessment and Grading Practices Policy](https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012). The table below shows the weight of each assessment. 
+Students will be evaluated according to [University Assessment and Grading Practices Policy](https://governingcouncil.utoronto.ca/secretariat/policies/grading-practices-policy-university-assessment-and-january-26-2012). 
 
-```{r, echo=FALSE}
-library(tidyverse)
-coursegrading <- read_csv("Winter2026_Grading.csv")
-knitr::kable(coursegrading[1:3,])
-```
+The mark for this course is based on three exams. The first two exams will take place during the semester and the final exam will be during the Final Exam period. The tests will cover all material in lecture up to that point, with an emphasis on the material from the last exam for the second and third tests. Tests may include proofs. All tests will be closed book and aid sheets will not be allowed. 
 
-All tests will be closed book and aid sheets will not be allowed. The tests will cover all material in lecture up to that point, with an emphasis on the material from the last exam for tests 2 and 3. Tests may include proofs. Term test 3 will take place during the Final Exam period. 
+Provided you take all three tests (T1, T2, and T3), your final grade will be calculated as:
 
-Bring your TCard. For term tests 1 and 2, There is a 10\% penalty if you forgot your TCard as we need to verify your identity during the exam. Do NOT sit next to anyone that you know.
+max(30% * max(T1, T2) + 70% * T3, 70% * max(T1, T2) + 30% * T3).
 
-You must take the test of the section that you are enrolled in - no exceptions. 
+If you miss either test 1 or test 2, your final grade will be calculated using the completed test 1/2 (completed T1/T2) and the final test: 
+
+max(30% * completed T1/T2 + 70% * T3, 70% * completed T1/T2 + 30% * T3).
+
+If you miss both test 1 and test 2, your grade will be based on final test alone.
+
+Bring your TCard. For tests 1 and 2, there is a 10\% penalty if you forgot your TCard as we need to verify your identity during the exam. Do NOT sit next to anyone that you know. You must take the test of the section that you are enrolled in - no exceptions.  
 
 Write with pen or sharp pencil in the space provided or on the additional pages with the problem number clearly labeled. Be sure to explain all of your reasoning. You may use results from class, with explanation. You may bring one basic calculator for arithmetic only. 
 
 You are required to follow the university's [Code of Behaviour](https://governingcouncil.utoronto.ca/secretariat/policies/code-behaviour-academic-matters-july-1-2019) at all times. Cheating will not be taken lightly and will be addressed according to the university's policies. 
 
-Students needing to take a deferred final exam from a previous semester are to take Test 3.
+Students needing to take a deferred final exam from a previous semester are to take the test during the final exam period. 
 
 <br>
 
@@ -176,14 +178,14 @@ Valid reasons for missing an assessment include: illness, injury, or other relev
 
 * Accessibility Services Letter.
 
-You must send your completed documentation to the course email before the scheduled exam time to be excused from the term test. Documentation cannot be submitted after a student takes an exam and the exam will not be excused.
+You must send your completed documentation to the course email before the scheduled exam time to be excused from the test. Documentation cannot be submitted after a student takes an exam and the exam will not be excused.
 
-If you are excused from one term test, your final grade will be calculated using the remaining two tests (i.e., no make-up exams will be offered). If two term tests are missed, the instructor may either conduct an oral exam or base your final grade on the single completed test, at her discretion.  
+If you are excused from one test, your final grade will be calculated using the remaining two tests (i.e., no make-up exams will be offered). If two tests are missed, the instructor may either conduct an oral exam or base your final grade on the single completed test, at her discretion. University policies on deferring the final test can be found [here](https://www.artsci.utoronto.ca/current/faculty-registrar/petitions/deferred-exams).  
 
 <br>
 
 ### <span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span> Late Penalty {#late_penalty}
-This course is evaluated entirely based on term test marks. If extra credit assignments are provided, they must be turned in by the due date. Late work will not be accepted.
+This course is evaluated entirely based on test marks. If extra credit assignments are provided, they must be turned in by the due date. Late work will not be accepted.
 
 
 <br>
