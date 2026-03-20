@@ -48,3 +48,7 @@ library(tidyverse)
 
 # Homework 8
 * [Problems](https://drive.google.com/file/d/1MBnznuq9S2mfLCQGvpqchv5YaQ489EyK/view?usp=sharing)
+* [Problems](https://drive.google.com/file/d/1oM-5Wu6OGlQH5Kwmn73PP7yfPLRPDsa1/view?usp=sharing)
+
+# Homework 9
+* [Problems](https://drive.google.com/file/d/13_edRswu7Mam-cwsGHNcsorRCiLetP5U/view?usp=sharing)
