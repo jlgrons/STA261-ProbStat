@@ -80,3 +80,10 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * [Slides with scribbles - 101](https://drive.google.com/file/d/1-0GX7T-W0kzTkWOOa5iTYhlJNfJzbKrM/view?usp=sharing)
 
 * [Slides with scribbles - 201](https://drive.google.com/file/d/16PTa8p8dXYKeTqOXaTSOOTTAgZjdP8iD/view?usp=sharing)
+
+
+## Lecture 8: Bayes
+
+* [Slides](https://drive.google.com/file/d/1cvjEVbet0sUrxovm2JKpOVqnwfnJs2ou/view?usp=sharing)
+
+
