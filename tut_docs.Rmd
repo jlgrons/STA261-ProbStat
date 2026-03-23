@@ -42,13 +42,13 @@ library(tidyverse)
 * [Problems](https://drive.google.com/file/d/1k_kMhNNxo9HB0D1wwB2o8sYbfQGdCBHF/view?usp=sharing)
 * [Solutions](https://drive.google.com/file/d/1y9taUlkAiNNEDeACmdiJ8SlXwT0p1e_9/view?usp=sharing)
 
-# Homework 7
+# Homework 7: MLE Theory
 * [Problems](https://drive.google.com/file/d/1FOCBROwp_TQFpc4H3pqXNPX69M5bNcuY/view?usp=sharing)
 * [Solutions](https://drive.google.com/file/d/1XDDCUmapLPnbLUlKYCpD-AnTSpVNJ0TO/view?usp=sharing)
 
-# Homework 8
+# Homework 8: Testing
 * [Problems](https://drive.google.com/file/d/1MBnznuq9S2mfLCQGvpqchv5YaQ489EyK/view?usp=sharing)
 * [Solutions](https://drive.google.com/file/d/1oM-5Wu6OGlQH5Kwmn73PP7yfPLRPDsa1/view?usp=sharing)
 
-# Homework 9
+# Homework 9: Bayes
 * [Problems](https://drive.google.com/file/d/13_edRswu7Mam-cwsGHNcsorRCiLetP5U/view?usp=sharing)
