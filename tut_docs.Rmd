@@ -52,3 +52,8 @@ library(tidyverse)
 
 # Homework 9: Bayes
 * [Problems](https://drive.google.com/file/d/13_edRswu7Mam-cwsGHNcsorRCiLetP5U/view?usp=sharing)
+* [Solutions](https://drive.google.com/file/d/1l8GOCPDSvsuw4c29C2TJz4lLyHzj73Vm/view?usp=sharing)
+
+# Homework 10: Hypothesis test
+* [Problems](https://drive.google.com/file/d/15UIKo4pJZMHeluFHlURBRMrP-b1uMVDq/view?usp=sharing)
+* [Problems](https://drive.google.com/file/d/13_edRswu7Mam-cwsGHNcsorRCiLetP5U/view?usp=sharing)
