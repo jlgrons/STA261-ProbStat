@@ -91,5 +91,11 @@ knitr::opts_chunk$set(echo = TRUE,warning = F, message = F)
 * [Slides with scribbles - 201](https://drive.google.com/file/d/18S5SDXG517b85PqwrH03TPcu2C_-1aiY/view?usp=sharing)
 
 
+## Lecture 9: Regression
+
+* [Slides](https://drive.google.com/file/d/1EeMHdxzuU83mRhkkpm4wbfwlXPF2catI/view?usp=sharing)
+
+
+
 
 
