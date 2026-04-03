@@ -56,3 +56,4 @@ library(tidyverse)
 
 # Homework 10: Regression
 * [Problems](https://drive.google.com/file/d/15UIKo4pJZMHeluFHlURBRMrP-b1uMVDq/view?usp=sharing)
+* [Solutions](https://drive.google.com/file/d/1ctPXos-Q_C9_q0xeODal3wz4p4JU2X9Q/view?usp=sharing)
