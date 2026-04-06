@@ -55,8 +55,19 @@ Below is our course schedule, which will almost certainly change as the course p
 | Prof | January 27 14:10-15:00 | <a href="https://utoronto.zoom.us/j/81083876621" target="_blank" rel="noopener">Zoom link</a> |
 | Prof | February 24 14:40-15:30 | <a href="https://utoronto.zoom.us/j/82066753873" target="_blank" rel="noopener">Zoom link</a> |
 
+# <span class="glyphicon glyphicon-plus" aria-hidden="false"></span> Final Exam Office Hour
 
-
-
-
+| **Name** | **Time** | **Zoom** |
+|---------|----------|----------|
+| KC  | April 9, 10:00–11:00 | <a href="https://utoronto.zoom.us/j/87209490546" target="_blank" rel="noopener">Zoom link</a> |
+| David  | April 9, 14:00–15:00 | <a href="https://utoronto.zoom.us/j/6095211024?omn=88938307937" target="_blank" rel="noopener">Zoom link</a> |
+| Madhu  | April 10, 12:00–14:00 | <a href="https://utoronto.zoom.us/j/87289661946" target="_blank" rel="noopener">Zoom link</a> |
+| Madhu  | April 13, 12:00–14:00 | <a href="https://utoronto.zoom.us/j/87289661946" target="_blank" rel="noopener">Zoom link</a> |
+| KC  | April 16, 10:00–11:00 | <a href="https://utoronto.zoom.us/j/87209490546" target="_blank" rel="noopener">Zoom link</a> |
+| Prof | April 16 14:00-15:00 | <a href="https://utoronto.zoom.us/j/81889559804" target="_blank" rel="noopener">Zoom link</a> |
+| David  | April 16, 14:00–15:00 | <a href="https://utoronto.zoom.us/j/6095211024?omn=88938307937" target="_blank" rel="noopener">Zoom link</a> |
+| David  | April 17, 14:00–15:00 | <a href="https://utoronto.zoom.us/j/6095211024?omn=88938307937" target="_blank" rel="noopener">Zoom link</a> |
+| David  | April 20, 14:00–15:00 | <a href="https://utoronto.zoom.us/j/6095211024?omn=88938307937" target="_blank" rel="noopener">Zoom link</a> |
+| Alex  | April 22, 13:00–14:00 | <a href="https://utoronto.zoom.us/j/86515559105" target="_blank" rel="noopener">Zoom link</a> |
+| KC  | April 23, 10:00–11:00 | <a href="https://utoronto.zoom.us/j/87209490546" target="_blank" rel="noopener">Zoom link</a> |
 
